@@ -1,0 +1,25 @@
+/* css/style.css */
+.main {
+    border: 2px solid salmon;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+  }
+
+  .label {
+    margin-right: 10px;
+  }
+
+  .d-block {
+    display: block;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+  }
