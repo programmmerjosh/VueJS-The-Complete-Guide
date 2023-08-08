@@ -2,6 +2,8 @@
 
 Udemy course by Maximilian Schwarzmüller
 
+https://www.udemy.com/course/vuejs-2-the-complete-guide/?kw=Vue+-+The+Complete+Guide+%28incl.+Router+%26+Composition+API%29&src=sac
+
 ---
 
 ## Section 1: Basics - Getting Started
