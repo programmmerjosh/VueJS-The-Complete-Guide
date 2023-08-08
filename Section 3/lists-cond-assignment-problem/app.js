@@ -1,27 +1,29 @@
+// app.js
+
 const app = Vue.createApp({
-    data() {
-        return {
-            taskName: '',
-            tasks: [],
-            hideList: false
-        };
+  data() {
+    return {
+      taskName: "",
+      tasks: [],
+      hideList: false,
+    };
+  },
+  computed: {
+    listClasses() {
+      return {
+        hidden: this.hideList,
+      };
     },
-    computed: {
-        listClasses() {
-            return {
-                hidden: this.hideList
-            }
-        }
+  },
+  methods: {
+    add() {
+      this.tasks.push(this.taskName);
+      this.taskName = "";
     },
-    methods: {
-        add() {
-            this.tasks.push(this.taskName);
-            this.taskName = '';
-        },
-        toggleHide() {
-            this.hideList = !this.hideList;
-        }
-    }
+    toggleHide() {
+      this.hideList = !this.hideList;
+    },
+  },
 });
 
-app.mount('#assignment');
+app.mount("#assignment");
