@@ -4,8 +4,6 @@
   </header>
 </template>
 
-<!-- notice the scoped attribute on the style tag -->
-<!-- this attribute restricts the styling defined here to this file only -->
 <style scoped>
   header {
     width: 100%;
