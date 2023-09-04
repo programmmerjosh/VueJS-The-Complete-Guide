@@ -3,8 +3,14 @@
     <base-button
       @click="setSelectedTab('stored-resources')"
       :mode="storedResButtonMode"
-    >Stored Resources</base-button>
-    <base-button @click="setSelectedTab('add-resource')" :mode="addResButtonMode">Add Resource</base-button>
+      >Stored Resources</base-button
+    >
+    <!-- notice that the click listener works by default because the root element of the base-button is a button tag, which has a click listener attribute, Vue handles this under the hood -->
+    <base-button
+      @click="setSelectedTab('add-resource')"
+      :mode="addResButtonMode"
+      >Add Resource</base-button
+    >
   </base-card>
   <component :is="selectedTab"></component>
 </template>
