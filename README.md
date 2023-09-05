@@ -6,6 +6,8 @@ https://www.udemy.com/course/vuejs-2-the-complete-guide/?kw=Vue+-+The+Complete+G
 
 ---
 
+> Note: In the readme, I summarise what was covered and what I learned in each section of the course.
+
 ## Section 1: Basics - Getting Started
 
 > gs-02-first-app-with-just-js
@@ -160,3 +162,37 @@ Vue Components - just introducing the concept of components
 ---
 
 ## Section 8: Component Communication
+
+---
+
+## Section 9: Diving Deeper Into Components
+
+- Component registration & styles - components can be registered globally or locally. Prefer local. Same with styles.
+- Slots
+- Dynamic components
+- Teleport
+- Style Guide
+
+> cmp-adv-06-scoped-slots
+>
+> > slot props
+> > scoped slots
+
+> cmp-adv-10-moving-to-a-different-folder-structure
+>
+> > scoped style tags
+> > slot tags
+> > custom slots
+> > slot props
+> > scoped slots
+> > dynamic components
+> > keep-alive component
+> > teleport component
+
+> > Folder structure => see https://v2.vuejs.org/v2/style-guide/
+
+---
+
+## Section 10: Course Project: The Learning Resources App
+
+A Vue.JS application that allows the user to dynamically create cards on a page that have hyperlinks to their desired resources with a title and description.
