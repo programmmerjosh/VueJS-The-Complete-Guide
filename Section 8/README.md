@@ -31,7 +31,7 @@ But type can also be any constructor function (built-in ones like Date or custom
 - Prop Fallthrough and
 - Binding All Props on a Components
 
-- @submit.prevent on a form element => to prevent the default browser behaviour when submitting a form (reload page)
+- \@submit.prevent on a form element => to prevent the default browser behaviour when submitting a form (reload page)
 
 ### Project: cmp-communication-07-demo-adding-more-component-communication
 

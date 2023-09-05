@@ -8,20 +8,20 @@
 - Teleport
 - Style Guide
 
-> cmp-adv-06-scoped-slots
->
-> > slot props
-> > scoped slots
+### Project: cmp-adv-06-scoped-slots
 
-> cmp-adv-10-moving-to-a-different-folder-structure
->
-> > scoped style tags
-> > slot tags
-> > custom slots
-> > slot props
-> > scoped slots
-> > dynamic components
-> > keep-alive component
-> > teleport component
+- slot props
+- scoped slots
 
-> > Folder structure => see https://v2.vuejs.org/v2/style-guide/
+### Project: cmp-adv-10-moving-to-a-different-folder-structure
+
+- scoped style tags
+- slot tags
+- custom slots
+- slot props
+- scoped slots
+- dynamic components
+- keep-alive component
+- teleport component
+
+- Folder structure => see https://v2.vuejs.org/v2/style-guide/
