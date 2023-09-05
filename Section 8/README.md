@@ -12,14 +12,14 @@ I coded along up to a point
 - validating props
 - explicit vs implicit prop declarations -> prop type, prop required
 - In general, you can learn all about prop validation in the official docs: https://v3.vuejs.org/guide/component-props.html. Specifically, the following value types (type property) are supported:
-  String
-  Number
-  Boolean
-  Array
-  Object
-  Date
-  Function
-  Symbol
+  1. String
+  2. Number
+  3. Boolean
+  4. Array
+  5. Object
+  6. Date
+  7. Function
+  8. Symbol
 
 But type can also be any constructor function (built-in ones like Date or custom ones).
 
