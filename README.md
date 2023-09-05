@@ -144,16 +144,18 @@ https://www.udemy.com/course/vuejs-2-the-complete-guide/?kw=Vue+-+The+Complete+G
 
 - to create new project using the Vue CLI, open a cmd terminal from the vue app directory, and enter:
 
-- vue create APPNAME
+- `vue create APPNAME`
 - to start the app (or start the development server), open a cmd terminal from the vue app directory, and enter:
 
-- npm run serve
+- `npm run serve`
 
-- in our new vue app, we don't need to declare Vue.createApp({}); anymore as the new app comes with this import and mount code predfined:
+- in our new vue app, we don't need to declare `Vue.createApp({});` anymore as the new app comes with this import and mount code predfined:
 
-- import { createApp } from 'vue'
-- import App from './App.vue'
-- createApp(App).mount('#app');
+```
+import { createApp } from 'vue'
+import App from './App.vue'
+createApp(App).mount('#app');
+```
 
 ### Project: vue-cli-01-a-new-vue-project
 
