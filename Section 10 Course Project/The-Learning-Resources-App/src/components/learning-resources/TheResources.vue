@@ -1,12 +1,14 @@
 <template>
   <base-card>
     <base-button
+      id="stored-resource-tab"
       @click="setSelectedTab('stored-resources')"
       :mode="storedResButtonMode"
       >Stored Resources</base-button
     >
     <!-- notice that the click listener works by default because the root element of the base-button is a button tag, which has a click listener attribute, Vue handles this under the hood -->
     <base-button
+      id="add-resource-tab"
       @click="setSelectedTab('add-resource')"
       :mode="addResButtonMode"
       >Add Resource</base-button
@@ -66,7 +68,7 @@ export default {
     },
     addResource(title, description, url) {
       const newResource = {
-        id: new Date().toISOString(),
+        id: new Date().toISOString() + ' ' + title,
         title: title,
         description: description,
         link: url,

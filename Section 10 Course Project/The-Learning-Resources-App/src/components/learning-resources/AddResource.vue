@@ -35,7 +35,9 @@
         <input id="link" name="link" type="url" ref="linkInput" />
       </div>
       <div>
-        <base-button type="submit">Add Resource</base-button>
+        <base-button id="submit-add-resource-button" type="submit"
+          >Add Resource</base-button
+        >
       </div>
     </form>
   </base-card>

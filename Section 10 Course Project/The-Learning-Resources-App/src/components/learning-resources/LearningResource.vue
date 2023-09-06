@@ -2,14 +2,14 @@
   <li>
     <base-card>
       <header>
-        <h3>{{ title }}</h3>
+        <h3 class="title">{{ title }}</h3>
         <base-button mode="flat" @click="deleteResource(id)"
           >Delete</base-button
         >
       </header>
       <p>{{ description }}</p>
       <nav>
-        <a target="_blank" :href="link">View Resource</a>
+        <a @id="id" target="_blank" :href="link">View Resource</a>
       </nav>
     </base-card>
   </li>
