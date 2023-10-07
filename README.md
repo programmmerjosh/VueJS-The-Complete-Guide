@@ -251,3 +251,16 @@ Max's solution
 ## Section 10: Course Project: The Learning Resources App
 
 A Vue.JS application that allows the user to dynamically create cards on a page that have hyperlinks to their desired resources with a title and description.
+
+---
+
+## Section 11: Froms
+
+- @submit.prevent
+- v-model.number - forces the input to be treated as a number
+- v-model.lazy - only syncs after change events
+- v-model.trim - eliminates any leading or trailing whitespace characters
+- checkboxes : if multiple grouped checkboxes: returns an array. If a single stand-alone checkbox: returns true/false
+- radio buttons
+- form validation with styling: using the blur event for validation
+- custom form contols ~ for example instead of using an input field or text-area or standard submit button, we can create our own custom contorl: See video 147:Using v-model on custom components as it can be a bit complex
