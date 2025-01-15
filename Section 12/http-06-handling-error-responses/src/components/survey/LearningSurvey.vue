@@ -63,7 +63,7 @@ export default {
       // });
 
       this.error = null;
-      fetch('https://fir-dbprac-31eef-default-rtdb.firebaseio.com/surveys.json', {
+      fetch(secretsJson.realtimeDBEndpoint, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

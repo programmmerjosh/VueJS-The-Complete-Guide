@@ -34,7 +34,7 @@ export default {
   methods: {
     loadExperiences() {
       this.isLoading = true;
-      fetch('https://fir-dbprac-31eef-default-rtdb.firebaseio.com/surveys.json')
+      fetch(secretsJson.realtimeDBEndpoint)
         .then((response) => {
           if (response.ok) {
             return response.json();

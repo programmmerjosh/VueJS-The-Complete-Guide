@@ -19,6 +19,7 @@
 
 <script>
 import SurveyResult from './SurveyResult.vue';
+import secretsJson from '../../../../../secrets.json';
 
 export default {
   components: {
@@ -27,12 +28,14 @@ export default {
   data() {
     return {
       results: [],
+      secrets: secretsJson
     };
   },
   methods: {
     loadExperiences() {
-      fetch('https://fir-dbprac-31eef-default-rtdb.firebaseio.com/surveys.json')
+      fetch(secretsJson.realtimeDBEndpoint)
         .then((response) => {
+          console.log(secretsJson.realtimeDBEndpoint);
           if (response.ok) {
             return response.json();
           }
